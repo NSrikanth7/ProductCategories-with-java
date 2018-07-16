@@ -1,0 +1,76 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+nav {    
+	display: block;
+	text-align: center;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+h1{
+	text-align:center;
+	
+}
+.categoryNav{
+	vertical-align: top;
+	display: inline-block;
+}
+.categoryNav li{
+	position: relative;
+	border: 2px solid;
+}
+.categoryNav > li + li {
+    border-left: 0;
+}
+.categoryNav li:hover{
+	background: yellow;
+}
+.categoryNav > li{
+	float: left;
+}
+.categoryNav a{
+	display: block; 
+	color: #000; 
+	text-decoration: none;
+	padding: 10px;
+	position: relative;
+}
+.categoryNav ul {
+  position: absolute;
+  white-space: nowrap;
+  margin-left:-2px;
+}
+.childNav{
+  position: absolute;
+  white-space: nowrap;
+}
+.childNav > li+li, .subChildNav > li+li{
+  border-top: 0;
+}
+.subChildNav{
+  position: absolute;
+  left: 100%;
+  top: 0px;
+  margin-left:0px !important;
+}
+li{
+	background: #FFFFFF;
+}
+.childNav{
+	display: none;
+}
+.subChildNav{
+	display: none;
+}
+.categoryNav li:hover .childNav{
+	display: block;
+}
+.childNav li:hover .subChildNav{
+	display: block; 
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Product Details</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Product Details">
+		<meta name="keywords" content="product,Electronics,Appliances">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1 id="title"></h1>
+				
+		</div>
+            <script>
+		window.onload= function(){
+			var name = localStorage['productName'];
+			localStorage.removeItem( 'objectToPass' );
+			document.getElementById("title").innerHTML = name;
+		}
+            </script>
+		
+	</body>
+	
+	
+</html>
