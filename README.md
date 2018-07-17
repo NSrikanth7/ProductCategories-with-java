@@ -1,3 +1,3 @@
 # ProductCategories-with-java
 Created Menu with java web socket
-for Demo use this link https://nsrikanth7.github.io/ProductCategories-with-java/web/index.html
+for Demo Start the "Glassfish server" and follow the link https://nsrikanth7.github.io/ProductCategories-with-java/web/index.html
